@@ -1,0 +1,4 @@
+{
+	"initcmd" : ".", //this is your prefix
+	"admingroups" : ["admin"]
+}
