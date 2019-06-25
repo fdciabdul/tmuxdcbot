@@ -1,4 +1,4 @@
-# tmuxdcbot
+# Discord Music Bot For Termux
 User-friendly and easy to use music bot for your discord server. This project is still a Work In Progress and is not a finished product. Add me at Mesmaroth#4335 on discord for any questions, guide to help set it up, or to help me make this bot better.
 
 Library: [Discord.js](https://discord.js.org)
@@ -6,7 +6,10 @@ Library: [Discord.js](https://discord.js.org)
 ## Installation:
 
 ### Termux
- -
+ - clone this repo 
+ `git clone https://github.com/fdciabdul/tmuxdcbot`
+ `cd tmuxdcbot`
+ `npm install`
 ## Commands:
 
 ### Admin Commands
