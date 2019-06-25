@@ -13,7 +13,7 @@
     "youtube-search": "^1.0.9",
     "ytdl-core": "^0.29.1"
   },
-  "author": "InsideHeartz ",
+  "author": "AbdulMuttaqin ",
   "license": "MIT",
   "devDependencies": {
     "opusscript": "0.0.6"
