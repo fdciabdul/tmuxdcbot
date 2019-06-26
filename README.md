@@ -1,17 +1,5 @@
 # Discord Music Bot For Termux
-![Made with Node-JS](https://img.shields.io/badge/made%20with-python-0.svg?color=cc2020&labelColor=ff3030&logo=python&logoColor=white&style=for-the-badge)
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/fdciabd/tmuxdcbot.svg?color=ffaa00&labelColor=ffaa30&style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/fdciabdul/tmuxdcbot.svg?color=ffaa00&labelColor=ffaa30&style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/fdciabdul/tmuxdcbot.svg?color=ffaa00&labelColor=ffaa30&style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/fdciabdul/tmuxdcbot.svg?color=ffaa00&labelColor=ffaa30&style=for-the-badge)
-
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/fdciabdul/tmuxdcbot.svg?style=flat-square)![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/DeBos99/ytviewer.svg?color=10aa10&labelColor=30ff30&style=for-the-badge)
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NH8JV53DSVDMY)
-
-**YTViewer** is simple YouTube views bot.
-
+[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
 
 
 This bot can run in Android with termux or other OS <br>
