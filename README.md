@@ -1,5 +1,5 @@
 # Discord Music Bot For Termux
-This bot can run in Android with termux or other OS 
+This bot can run in Android with termux or other OS <br>
 Library: [Discord.js](https://discord.js.org)
 
 ## Installation:
