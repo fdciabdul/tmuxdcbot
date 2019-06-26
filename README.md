@@ -1,7 +1,6 @@
 # Discord Music Bot For Termux
 [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
-[![forthebadge made-with-nodejs](http://ForTheBadge.com/images/badges/made-with-nodejs.svg)](https://www.nodejs.com/)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![npm version](https://badge.fury.io/js/discord.js.svg)](https://badge.fury.io/js/discord.js)[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
 This bot can run in Android with termux or other OS <br>
