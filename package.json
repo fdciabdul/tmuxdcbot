@@ -1,21 +1,32 @@
 {
-  "name": "InsideBot",
-  "version": "1.1.",
-  "description": "Discord music bot",
-  "main": "app.js",
-  "dependencies": {
-    "async": "^2.4.1",
-    "discord.js": "11.4.2",
-    "erlpack": "^0.1.2",
-    "node-opus": "0.3.1",
-    "request": "2.88.0",
-    "uws": "^99.0.0",
-    "youtube-search": "^1.0.9",
-    "ytdl-core": "^0.29.1"
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
-  "author": "AbdulMuttaqin ",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "express": "^4.16.3",
+    "node-opus": "^0.3.1",
+    "simple-youtube-api": "^5.1.1",
+    "superagent": "^4.0.0-beta.5",
+    "ytdl-core": "^0.28.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
   "license": "MIT",
-  "devDependencies": {
-    "opusscript": "0.0.6"
-  }
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
