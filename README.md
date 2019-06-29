@@ -15,6 +15,19 @@ Library: [Discord.js](https://discord.js.org)
  - `npm install`
 ## Commands:
 
+## Configurations
+
+Sett Discord Bot Token , API Youtube Key in
+`config/botLogin.js`
+
+```javascript
+module.exports = {
+        token: "TOKEN_KEY",
+        youtubeAPI: "YOUTUBE_API_KEY",
+        owner_id: "OWNER_ID"
+}
+```
+
 ### Admin Commands
   - `listgroup`: List groups that have admin access
   - `addgroup [group_name]`: Add a group to use admin access
