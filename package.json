@@ -11,11 +11,17 @@
     "request": "2.88.0",
     "uws": "^99.0.0",
     "youtube-search": "^1.0.9",
-    "ytdl-core": "^0.29.1"
+    "ytdl-core": "^0.29.1",
+    "snyk": "^1.189.0"
   },
   "author": "Robert (Mesmaroth)",
   "license": "MIT",
   "devDependencies": {
     "opusscript": "0.0.6"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
