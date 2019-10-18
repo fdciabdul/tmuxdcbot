@@ -12,7 +12,7 @@
     "uws": "^99.0.0",
     "youtube-search": "^1.0.9",
     "ytdl-core": "^0.29.1",
-    "snyk": "^1.189.0"
+    "snyk": "^1.236.0"
   },
   "author": "Robert (Mesmaroth)",
   "license": "MIT",
