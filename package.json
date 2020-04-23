@@ -11,7 +11,7 @@
     "request": "2.88.0",
     "uws": "^99.0.0",
     "youtube-search": "^1.0.9",
-    "ytdl-core": "^1.0.7",
+    "ytdl-core": "^2.1.1",
     "snyk": "^1.189.0"
   },
   "author": "Robert (Mesmaroth)",
