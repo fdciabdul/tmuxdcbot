@@ -13,7 +13,7 @@ Library: [Discord.js](https://discord.js.org)
  - `git clone https://github.com/fdciabdul/tmuxdcbot`
  - `cd tmuxdcbot`
  - `npm install`
-## Commands:
+ - `pkg install ffmpeg`
 
 ## Configurations
 
