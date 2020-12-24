@@ -798,7 +798,7 @@ bot.on('message', message => {
   	}
 
   	if(isCommand(message.content, 'join')){
-  		var userVoiceChannel = message.member.voiceChannel;
+  		var userVoiceChannel = message.member.voice.channel;
   		if(userVoiceChannel){
   			if(!playing){
   				if(currentVoiceChannel){
@@ -860,20 +860,20 @@ bot.on('message', message => {
   		var file = message.attachments.first();
 
   		// Handle playing audio for a single channel
-  		if(playing && currentVoiceChannel !== message.member.voiceChannel){
+  		if(playing && currentVoiceChannel !== message.member.voice.channel){
 			message.channel.send("Currently playing something in another voice channel");
 			return;
 		}
 
-		if(!message.member.voiceChannel){
+		if(!message.member.voice.channel){
 			message.channel.send("You aren't in a voice channel");
 			return;
 		}
 
-		if(currentVoiceChannel !== message.member.voiceChannel){
+		if(currentVoiceChannel !== message.member.voice.channel){
 			if(currentVoiceChannel) currentVoiceChannel.leave();
 
-			currentVoiceChannel = message.member.voiceChannel;
+			currentVoiceChannel = message.member.voice.channel;
 			if(playing){
 				message.channel.send("Currently playing something");
 				return;
@@ -1143,7 +1143,7 @@ bot.on('message', message => {
   	}
 
   	if(isCommand(message.content, 'stop')){
-  		if(currentVoiceChannel !== message.member.voiceChannel){
+  		if(currentVoiceChannel !== message.member.voice.channel){
 			message.channel.send("Not in the bot's voice channel");
   			return;
   		}
@@ -1158,7 +1158,7 @@ bot.on('message', message => {
   	}
 
   	if(isCommand(message.content, 'skip')){
-  		if(currentVoiceChannel !== message.member.voiceChannel){
+  		if(currentVoiceChannel !== message.member.voice.channel){
 			message.channel.send("Not in the bot's voice channel");
   			return;
   		}
@@ -1188,7 +1188,7 @@ bot.on('message', message => {
   	}
 
   	if(isCommand(message.content, 'replay')){
-  		if(currentVoiceChannel !== message.member.voiceChannel){
+  		if(currentVoiceChannel !== message.member.voice.channel){
 			message.channel.send("Not in the bot's voice channel");
   			return;
   		}
@@ -1202,7 +1202,7 @@ bot.on('message', message => {
   	}
 
   	if(isCommand(message.content, 'remove')){
-  		if(currentVoiceChannel !== message.member.voiceChannel){
+  		if(currentVoiceChannel !== message.member.voice.channel){
 			message.channel.send("Not in the bot's voice channel");
   			return;
   		}
@@ -1317,7 +1317,7 @@ bot.on('message', message => {
   	}
 
   	if(isCommand(message.content, 'readd')){
-  		if(currentVoiceChannel !== message.member.voiceChannel){
+  		if(currentVoiceChannel !== message.member.voice.channel){
 			message.channel.send("Not in the bot's voice channel");
   			return;
   		}
@@ -1331,7 +1331,7 @@ bot.on('message', message => {
   	}
 
   	if(isCommand(message.content, 'loop')){
-  		if(currentVoiceChannel !== message.member.voiceChannel){
+  		if(currentVoiceChannel !== message.member.voice.channel){
 			message.channel.send("Not in the bot's voice channel");
   			return;
   		}
@@ -1619,11 +1619,11 @@ bot.on('message', message => {
 
 bot.on('voiceStateUpdate', (oldMember, newMember) =>{
 	if(newMember.id === bot.user.id){
-		newMember.voiceChannel = currentVoiceChannel;
+		newMember.member.voice.channel = currentVoiceChannel;
 	}
 
-	if(currentVoiceChannel && oldMember.voiceChannel){
-		if(oldMember.voiceChannel === currentVoiceChannel && newMember.voiceChannel !== currentVoiceChannel  && currentVoiceChannel.members.size === 1){
+	if(currentVoiceChannel && oldMember.member.voice.channel){
+		if(oldMember.member.voice.channel === currentVoiceChannel && newMember.member.voice.channel !== currentVoiceChannel  && currentVoiceChannel.members.size === 1){
 			if(queue.length > 0){
 				queue.splice(0, queue.length);
 			}
