@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
+const config = require("config");
 const banner = require("ascii-art");
 require("dotenv").config();
 var clc = require("cli-color");
@@ -49,7 +50,7 @@ client.on("ready", () => {
 
 client.on("message", async (message) => {
   console.log(clc.red("New Message = > "+ message.content));
-  if (message.author.bot || !message.guild || !message.content.startsWith("!"))
+  if (message.author.bot || !message.guild || !message.content.startsWith(config.prefix))
     return;
   if (!message.member.voice.channel && message.content !== ("!h" || "!help"))
     return message.channel.send("❌ You're not in a voice channel.");
@@ -106,4 +107,4 @@ client.on("voiceStateUpdate", (oldState, newState) => {
   queue = null;
 });
 
-client.login(process.env.TOKEN);
+client.login(config.TOKEN);
