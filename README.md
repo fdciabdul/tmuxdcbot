@@ -3,8 +3,8 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
   <br>
-  <a href="https://japanesestation.com/wp-content/uploads/2012/12/anime-character-headpone-japan.jpg" width="150" height=150"></a>
- 
+  <a href="https://github.com/fdciabdul/tmuxdcbot"><img src="https://japanesestation.com/wp-content/uploads/2012/12/anime-character-headpone-japan.jpg" width="150" height=150"></a>
+  <br>
 # Discord Music Bot For Termux
 [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
 [![npm version](https://badge.fury.io/js/discord.js.svg)](https://badge.fury.io/js/discord.js)[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
