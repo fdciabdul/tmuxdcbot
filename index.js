@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
-const config = require("config");
+const config = require("./config");
 const banner = require("ascii-art");
 require("dotenv").config();
 var clc = require("cli-color");
