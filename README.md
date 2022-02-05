@@ -25,13 +25,13 @@ Library: [Discord.js](https://discord.js.org)
 
 ## Configurations
 
-Sett Discord Bot Token , API Youtube Key in
-`config.js`
+Set Discord Bot Token 
+`config.json`
 
-```javascript
-module.exports = {
-        token: "TOKEN_KEY",
-        prefix: "!"
+```json
+{
+        "token": "TOKEN_KEY",
+        "prefix": "!"
 }
 ```
 
