@@ -1,12 +1,19 @@
 const fs = require('fs');
-const { Client, Intents, ClientVoiceManager, Collection } = require('discord.js');
+const { Client, GatewayIntentBits, ClientVoiceManager, Collection } = require('discord.js');
 const { AudioPlayerManager } = require('./classes/audioplayermanager.js');
 const { User } = require('./classes/user.js');
 const { Interaction } = require('./classes/interaction.js');
 
-const { token , admin , prefix } = require('./config.json');
+const { token, admin, prefix } = require('./config.json');
 
-const client = new Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_VOICE_STATES] });
+const client = new Client({
+intents: [
+GatewayIntentBits.Guilds,
+GatewayIntentBits.GuildMessages, 
+GatewayIntentBits.GuildVoiceStates
+]
+})
+
 client.commands = new Collection();
 
 const operators = admin;
