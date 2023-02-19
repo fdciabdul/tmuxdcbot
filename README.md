@@ -3,7 +3,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
   <br>
-  <a href="https://github.com/fdciabdul/tmuxdcbot"><img src="https://japanesestation.com/wp-content/uploads/2012/12/anime-character-headpone-japan.jpg" width="400" height=250"></a>
+ 
+
+  <a href="https://github.com/fdciabdul/tmuxdcbot"><img src="https://user-images.githubusercontent.com/31664438/219981743-f7339e03-1442-4c50-97a1-0352bb32188e.png" width="400" height=250"></a>
   <br>
   
 # Discord Music Bot For Termux
