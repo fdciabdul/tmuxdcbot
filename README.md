@@ -5,8 +5,7 @@
   <br>
  
 
-  <a href="https://github.com/fdciabdul/tmuxdcbot"><img src="https://user-images.githubusercontent.com/31664438/219981743-f7339e03-1442-4c50-97a1-0352bb32188e.png" width="400" height=250"></a>
-  <br>
+  <a href="https://github.com/fdciabdul/tmuxdcbot"> <img src="https://user-images.githubusercontent.com/31664438/219981743-f7339e03-1442-4c50-97a1-0352bb32188e.png" height="400"></a>
   
 # Discord Music Bot For Termux
 [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
